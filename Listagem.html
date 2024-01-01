@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Imobiliário</title>
+    <link rel="stylesheet" href="lista.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
+</head>
+
+<body>
+    <header>
+        <h1>Lista de Imóveis</h1>
+        <img src="./Freitas.png" alt="logo.imobiliaria">
+    </header>
+    <form id="buscaForm">
+        <label for="buscaTitulo"><i class="fi fi-rr-search-alt"></i> Buscar imóvel:</label>
+        <input type="text" id="buscaTitulo">
+        <button type="button" onclick="buscarImoveis()">Buscar</button>
+    </form>
+
+    <h3>Imóveis Disponíveis</h3>
+
+    <table id="imoveisTable">
+        <tr>
+            <th>Foto</th>
+            <th>Título</th>
+            <th>Endereço</th>
+            <th>Tipo de Negociação</th>
+            <th>Data de Cadastro</th>
+            <th>Valor de Venda</th>
+            <th>Valor de Locação</th>
+            <th>Proprietário</th>
+        </tr>
+    </table>
+
+    <script src="list.js"></script>
+</body>
+
+</html>
